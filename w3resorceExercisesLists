@@ -1,0 +1,51 @@
+# Write a Python program to sum all the items in a list.
+items = [10, 20, 20, 30]
+total_sum = sum(items)
+print("total sum of all items in list is: " + str(total_sum))
+
+
+def sum_num(items):
+    sum = 0
+    for i in items:
+        sum = sum+i
+    return sum
+
+
+print("sum is:" + str(sum_num([10, 2, 5])))
+# Write a Python program to multiply all the items in a list.
+
+
+def mul(items):
+    tot = 1
+    for i in items:
+        tot = tot*i
+    return tot
+
+
+print("total multiplication of all items in list is: " + str(mul([10, 20, 3])))
+# Write a Python program to get the largest number from a list.
+lis = [20, 100, 4, 5]
+print("largest number from list is: " + str(max(lis)))
+
+
+def max_num(items):
+    max = 1
+    for i in items:
+        if i > max:
+            max = i
+    return max
+
+
+print("max value is: " + str(max_num([10, 20, 4, 5])))
+# Write a Python program to get the smallest number from a list
+
+
+def min_num(items):
+    min = 1
+    for i in items:
+        if i < min:
+            min = i
+    return min
+
+
+print("min value is: " + str(min_num([10, 20, -4, 3])))

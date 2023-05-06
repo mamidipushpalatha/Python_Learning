@@ -1,4 +1,0 @@
-# Sorting list of tuples
-lis = [("prod5", 10), ("prod2", 50), ("prod3", 15)]
-lis.sort(key=lambda lis: lis[1])
-print(lis)
