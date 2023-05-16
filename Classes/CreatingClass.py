@@ -25,6 +25,6 @@ class Cons:
 
 
 # point1 = Cons()
-point1 = Cons(1, 2)
+point1 = Cons(1, 2)   
 # print(point1.x, point1.y)  # 1 2
 point1.draw()  # drawing....from  1  to  2
