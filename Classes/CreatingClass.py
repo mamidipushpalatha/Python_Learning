@@ -9,13 +9,14 @@ print(type(p))
 print(isinstance(p, Point))  # true
 print(isinstance(p, int))  # false
 
-# constrictors
-
-
+# constrctors
 # self variable is a must in creating a constructor by using __init__
+
 
 class Cons:
     def __init__(self, x, y):
+        a = x+y
+        print("sum of x,y is: ", a)
         self. x = x
         self .y = y
 
